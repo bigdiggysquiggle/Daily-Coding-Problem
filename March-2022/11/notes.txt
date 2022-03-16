@@ -1,0 +1,7 @@
+3/11/22
+
+The hardest part of this coding challenge was figuring out how
+functional programming of this style works in python. I'm
+still not fully comfortable with the syntax that python uses
+so I will be doing a lot more practice with this type of
+challenge to figure it out better and become more comfortable

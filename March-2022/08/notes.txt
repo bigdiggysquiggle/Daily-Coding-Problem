@@ -1,0 +1,45 @@
+3/8/2022
+
+Given that this question has a "Follow-up" section, I chose
+to implement 2 different versions of my solution. One that
+uses division and one that only uses multiplication. In the
+division version of my solution, I found the product of every
+number in the given array. After that, because the solution
+requires that the new array contains the product of every
+number except the number at the current index, I made my new
+array by dividing the current number from the old array out of
+the overall product and storing that result in the new array.
+
+For the version of this where I didn't use division, my
+initial solution was to take the product of all numbers before
+and after the current number in the given array and store that
+result in my new array. I knew there had to be a better
+solution though so I did some research and found a description
+of an algorithm that takes only 2 passes through the original
+array to create the new array. One forwards, then one back.
+
+In this algorithm, you effectively initialize a temp variable
+and the first number in your new array to 1. Then as you step
+through the given array, you set the current position in your
+new array to the number currently stored in your temp variable
+(remember, this is a running product that at this point
+doesn't include the current number in your given array)
+then multiply the current number from the given array into
+your temp variable.
+
+At this point we now have an array that consists entirely of
+the product of every previous number from the given array. To
+finish out our new array, we need to multiply in every number
+that follows. To do this, we effectively invert the previous
+process. We start from the end of the arrays and set our temp
+variable to 1. Then we multiply our temp variable into the
+current position of our new array, multiply the current
+position of the given array into our temp variable, and step
+again, repeating till we've returned to the beginning of our
+array (and of course multiplying our temp variable into that
+position as well). This works because multiplying the product
+of all numbers after the current position into the current
+position is the same thing as multiplying each following
+number individually into the current position. Thus we save
+time, memory space during execution, lines of code, and
+machine cycles.

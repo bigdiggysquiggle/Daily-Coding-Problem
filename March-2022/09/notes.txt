@@ -1,0 +1,21 @@
+3/9/2022
+
+Today's challenge wasn't too bad. I just created a recursive
+function that creates a string from the current node's value,
+then passes the current node's left node to the function
+(appending the resulting string to the current string), then
+passes its right node to the function (again appending the
+result string to the current string) before finally returning
+the fully appended string. In the event that the function
+receives NULL, it returns the string "-1". Each of these value
+strings is delimited by a single space in the final string. T
+at way when I deserialize the string, I can simply split the
+string at each space to create a list of each string, then use
+that to recursively reconstruct the list. I take the current
+string, turn it into the value for the current node, and
+remove the current string from the list. Then for the left and
+right nodes, I pass this new list to this deserialize function
+and assign the result to the left node, then repeat for the
+right node. The only hard part was figuring out how classes
+are implemented in python, as at the time of writing this I am
+not currently skilled in python.

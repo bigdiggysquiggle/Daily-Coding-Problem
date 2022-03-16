@@ -1,0 +1,11 @@
+3/7/2022
+
+For this challenge, I chose a simple mathematical approach. I
+tested whether the number at the current index could be added
+with any number after it in the array to achieve the desired
+solution. There is no need to test later numbers against
+previous numbers, as when the previous number was tested, it
+would have been added with the current number. My solution
+doesn't require multiple passes that start from the beginning
+of the input array. At this time I am unsure whether there is
+a more efficient method or not.
