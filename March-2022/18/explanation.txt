@@ -1,0 +1,25 @@
+so climb accepts the number of steps in your staircase and a
+set of possible amounts you can step at a time as argument.
+it defaults to being able to step up 1 or 2 steps at a time
+cuz of the problem description. so yeah, if there's no
+stairs left to climb, you've reached the top and you're done
+so you count that as 1 unique way to get up the steps. 
+
+if you're not at the top, then the for loop takes each value
+that's in that array of how many steps you're allowed to
+take at a time and runs the function again but after having
+climbed the allowed amounts ;3 so like, if your set of
+allowed steps is 1, 2, 3 then it starts an instance where
+it's climbed up 1 step, another where it's climbed up 2
+steps, and one more where it's climbed up 3 steps 
+
+since that recurses, it ends up exploring every possible
+combination of the allowed amounts of steps and only ones
+that successfully make it to the top (where stair is 0 so it
+returns 1) get counted
+
+it doesn't even finish calculating for ones that don't make
+it to the top, those will have a 0 total so they'll just
+return 0. otherwise it'll end up going back and giving
+another 1 for each way that made it to the top and each of
+those 1s get added together, giving us the final count
