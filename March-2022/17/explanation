@@ -1,0 +1,4 @@
+This is probably the simplest and most python-esque way
+to handle searching a list of strings. We make use of
+python's list comprehension to generate a new list of
+all strings that start with the given query
