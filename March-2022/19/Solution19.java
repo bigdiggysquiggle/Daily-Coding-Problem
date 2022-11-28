@@ -1,6 +1,6 @@
 import java.util.HashSet;
 
-public class Solution   {
+public class Solution19   {
     public static Boolean isValid(String str, Integer k)   {
         //System.out.println("validating: " + str);
         HashSet<Character> test = new HashSet<>();
