@@ -8,3 +8,7 @@ and I feel that Python is the best for quick-drafting
 algorithms and ideas in that kind of setting. As I come up with
 better solutions or otherwise feel the need to revisit old
 problems, I will be adding new notes and solutions
+
+UPDATE: I have switched to completing these challenges in Java
+so I can better solidify the fundamental concepts of programming
+in Java for my current job
