@@ -9,7 +9,7 @@ public class Solution21 {
         if (count == 1)
             choice = x;
         else {
-            int i = rng.nextInt(count - 1);
+            int i = rng.nextInt(count);
             System.out.println(i + "==" + (count - 1));
             if (i == count - 1)
                 choice = x;
