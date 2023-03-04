@@ -1,3 +1,6 @@
+NOTE: for all unfinished and WIP solutions check out the branch
+      "unfinished"
+
 I signed up over on https://www.dailycodingproblem.com/ to have
 a real coding problem asked during real coding interviews sent
 to my email every morning. This will serve as my workspace and
@@ -9,5 +12,5 @@ my knowledge and understanding of common algorithms referrenced
 in an interview setting
 
 As each challenge is given daily, the number of each directory
-is the day that I was given the challenge, not the number ofs
-the challenge itself
+is the day that I was given the challenge, not the number of
+the challenge itself or the day it was completed
