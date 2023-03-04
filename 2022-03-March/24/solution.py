@@ -6,7 +6,7 @@ def max_sub(arr: list[int], k: int, le: int):
 	ind = deque([])
 	i = 0
 	while (i < k):
-		while ind and arr[i] > arr[ind[-1]]:
+		while ind and arr[i] >= arr[ind[-1]]:
 			ind.pop()
 		ind.append(i)
 		i += 1
@@ -14,7 +14,7 @@ def max_sub(arr: list[int], k: int, le: int):
 	while i < le:
 		while ind and ind[0] < i - k + 1:
 			ind.popleft()
-		while ind and arr[i] > arr[ind[0]]:
+		while ind and arr[i] >= arr[ind[0]]:
 			ind.popleft()
 		ind.append(i)
 		print(', ' + str(arr[ind[0]]), end='')
