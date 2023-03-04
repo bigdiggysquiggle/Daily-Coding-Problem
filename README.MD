@@ -1,10 +1,16 @@
+NOTE: for all unfinished and WIP solutions check out the branch
+      "unfinished"
+
 I signed up over on https://www.dailycodingproblem.com/ to have
 a real coding problem asked during real coding interviews sent
 to my email every morning. This will serve as my workspace and
-home for the solutions I come up with. The majority of these
-are going to be completed in Python, as my goal is to get used
-to answering these kinds of questions in an interview setting
-and I feel that Python is the best for quick-drafting
-algorithms and ideas in that kind of setting. As I come up with
-better solutions or otherwise feel the need to revisit old
-problems, I will be adding new notes and solutions
+home for the solutions I come up with.
+
+I will be completing each of these in one of C/C++, Python, or
+Java to both keep my skills sharp with each language and build
+my knowledge and understanding of common algorithms referrenced
+in an interview setting
+
+As each challenge is given daily, the number of each directory
+is the day that I was given the challenge, not the number of
+the challenge itself or the day it was completed
